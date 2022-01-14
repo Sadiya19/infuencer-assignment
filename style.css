@@ -1,25 +1,57 @@
+body{
+    font-family: Overpass;
+}
+section{
+    margin: 50px 100px;
+}
 .nav-sec{
     display: flex;
     justify-content: space-between;
 }
-.nav ul{
+ul{
     display: flex;
 }
-.nav ul li{
+ul li{
     list-style: none;
+    margin-left:10px;
 }
 a{
     text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+a:hover{
+    background-color: grey;
+    color: white;
+    border-radius: 3px;
 }
 .header-top{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+.header-text{
+    display: flex;
+    align-items: center;
+}
+.purchase-btn{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bolder;
+    color: white;
+    background: rgb(248, 121, 121);
+    cursor: pointer;
+}
+.main-section>h1{
+    text-align: center;
 }
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 .product{
-    border: 1px solid grey;
-    margin: 10px;
+    box-shadow: 0 0 15px 1px rgb(180, 178, 178);
+    border-radius: 3px;
+    margin: 25px;
+    padding: 0 20px;
 }
