@@ -1,0 +1,25 @@
+.nav-sec{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header-top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.product{
+    border: 1px solid grey;
+    margin: 10px;
+}
