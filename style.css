@@ -10,10 +10,10 @@ section{
     display: flex;
     justify-content: space-between;
 }
-ul{
+.nav ul{
     display: flex;
 }
-ul li{
+.nav ul li{
     list-style: none;
     margin-left:10px;
 }
@@ -27,11 +27,11 @@ a:hover{
     color: white;
     border-radius: 3px;
 }
-.header-top{
+.header-top, .row{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.header-text{
+.header-text, .app-fetures{
     display: flex;
     align-items: center;
 }
@@ -44,7 +44,7 @@ a:hover{
     background: rgb(248, 121, 121);
     cursor: pointer;
 }
-.main-section>h1{
+.main-section, .bonus-sec>h1{
     text-align: center;
 }
 .products{
@@ -67,6 +67,10 @@ a:hover{
 .product .fas, .far{
     color: darkorange;
 }
+.app-img img{
+    width: 450px;
+}
+
 footer{
     background-color: rgb(6, 6, 39);
     color: white;
